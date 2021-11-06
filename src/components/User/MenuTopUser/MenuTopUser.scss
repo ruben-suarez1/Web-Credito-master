@@ -1,0 +1,14 @@
+@import "../../../scss/index.scss";
+
+.menu-top {
+  padding-bottom: 20px;
+  &__toolbar {
+    background-color: $primary-color;
+  }
+
+  flex-grow: 1;
+
+  &__title {
+    flex-grow: 1;
+  }
+}

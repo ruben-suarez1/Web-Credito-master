@@ -1,0 +1,29 @@
+@import "../../../scss/index.scss";
+
+.form-register {
+  padding-bottom: 30px;
+  .MuiGrid-container {
+    padding-top: 25px;
+  }
+  .MuiTypography-h6 {
+    padding-top: 15px;
+    a {
+      text-decoration: none;
+    }
+  }
+  .MuiTypography-body1 {
+    padding-bottom: 5px;
+    a {
+      text-decoration: none;
+    }
+  }
+  button {
+    &:hover {
+      color: $primary-color-hover;
+    }
+  }
+  .error {
+    border: 1px solid $error;
+    background-color: $background-error;
+  }
+}

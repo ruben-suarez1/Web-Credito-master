@@ -1,0 +1,12 @@
+@import "../../../../scss/index.scss";
+
+.info {
+  img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .MuiTypography-body1 {
+    color: $font-grey;
+    margin-bottom: 20px;
+  }
+}
